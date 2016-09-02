@@ -1,32 +1,45 @@
-.equation
+.calculator
 {
   overflow: hidden;
   position: relative;
-  max-width: 400px;
+  max-width: 600px;
+  height: 100px;
   margin: auto;
   background-color: green;
 }
-.equationText
+.currencyIn, .currency
 {
-  width: 70%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
   font-size: 400%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
 }
-.sumInput
+.currencyInCon
 {
   position: absolute;
   width: 30%;
   height: 100%;
   top: 0;
-  right: 0;
+  left:0;
   background-color: red;
 }
-.answerText
+.currencyInCon2
 {
-  background: transparent;
-  border: none;
+  position: absolute;
+  width: 30%;
   height: 100%;
-  font-size: 400%;
+  top: 0;
+  left: 30%;
+  background-color: red;
+}
+.currencyOut
+{
+  font-size: 300%;
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 0;
+  right:0;
+  background-color: red;
 }
